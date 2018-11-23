@@ -11,5 +11,6 @@ function  updateDriverWithKeyAndValue(obj, key, value) {
 
 function destructivelyUpdateDriverWithKeyAndValue(obj, key, value){
   
-  
+  driver[key] = value;
+  return driver
 }
